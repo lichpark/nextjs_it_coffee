@@ -10,15 +10,16 @@ const Menu = () => {
       </div>
 
       <ul className="w-5/12 flex justify-between text-center">
+        <Link href="/menu">
+          <li className={headerStyle.flexCenterPackage}>MENU</li>
+        </Link>
         <Link href="/brand">
           <li className={headerStyle.flexCenterPackage}>BRAND</li>
         </Link>
         <Link href="/franchise">
           <li className={headerStyle.flexCenterPackage}>FRANCHISE</li>
         </Link>
-        <Link href="/menu">
-          <li className={headerStyle.flexCenterPackage}>MENU</li>
-        </Link>
+
         <Link href="/store">
           <li className={headerStyle.flexCenterPackage}>STORE</li>
         </Link>
