@@ -26,6 +26,9 @@ const Menu = () => {
         <Link href="/news">
           <li className={headerStyle.flexCenterPackage}>NEWS</li>
         </Link>
+        <Link href="/goods">
+          <li className={headerStyle.flexCenterPackage}>Goods</li>
+        </Link>
       </ul>
     </nav>
   );
